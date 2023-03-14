@@ -1,0 +1,15 @@
+__pycache__
+venv
+env
+.env
+.pytest_cache
+.coverage
+.idea
+lightning_logs
+.ipynb_checkpoints
+.ckpt
+example.ckpt
+.neptune
+logs_for_graphs
+heuristics
+heuristic_tables

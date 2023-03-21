@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: bisque;
+    /*background-color: coral;*/
+    /*background-color: #353535;*/
+    /*background-color: #555;*/
+    background-color: rgb(12, 154, 200);
+    padding: 10px;
+    font-size: 2rem;
+}
+
+p {
+    background-color: bisque;
+    color: darkcyan;
+    padding: 30px;
+
+    /*font-family: "Verdana", "Tahoma", Sans-Serif;*/
+    /*font-size: 12px;*/
+    /*font-weight: bold;*/
+
+    font: normal 13px "Arial Helvetica";
+    line-height: 1.6em;
+}
+
+.container {
+    color: darkcyan;
+    background-color: bisque;
+
+    /*padding-top: 10px;*/
+    /*padding-left: 20px;*/
+    /*padding-bottom: 10px;*/
+
+    /*padding: 10px 20px 20px 10px;*/
+    /*padding: 10px 20px;*/
+    padding: 10px;
+
+    /*margin: 20px 10px;*/
+    margin: 20px;
+
+    /*border-right: 5px orange dotted;*/
+    /*border-left: 5px orange dotted;*/
+    /*border-top: 5px red solid;*/
+    /*border-bottom: 5px red solid;*/
+
+    /*border-bottom-width: 30px;*/
+
+    border: 10px red solid;
+    border-radius: 30px;
+    /*border-radius: 50%;*/
+}
+
+#box-1 {
+    background-color: #333;
+    color: #fff;
+
+    border: 5px red solid;
+    border-radius: 10px;
+
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.box-2 {
+    border: 3px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0;
+    color: #cccccc;
+    border-radius: 10px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    /*border-radius: 30px;*/
+    border-radius: 50%;
+}

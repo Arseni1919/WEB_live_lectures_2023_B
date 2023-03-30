@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: cadetblue;
+    padding: 20px;
+    margin: 20px;
+}
+
+h1:hover {
+    color: goldenrod;
+    /*background-color: #333333;*/
+}
+
+.upper-part header p {
+    line-height: 1.6em;
+    color: white;
+    background-color: #333333;
+    padding: 20px;
+    margin: 20px;
+
+    border: 3px cadetblue solid;
+    border-radius: 10px;
+
+}
+
+main p {
+    padding: 20px;
+    margin: 20px;
+
+    color: cadetblue;
+    border: 3px cadetblue dotted;
+    border-radius: 10px;
+
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.container {
+    border: 2px #ccc solid;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+
+.categories {
+
+
+}
+
+.categories h2 {
+    text-align: center;
+}
+
+.categories ul {
+    padding: 0;
+    /*list-style: square;*/
+    list-style: none;
+}
+
+.categories ul li {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-bottom: dotted 1px #333;
+}
+
+.tag-states-example {
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: goldenrod;
+}
+
+a:active {
+    color: red;
+}
+
+a:visited {
+    color: white;
+}
+
+/********************************************/
+/********************************************/
+/********************************************/
+
+
+.my-form {
+    border: 2px indianred solid;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.my-form .form-group {
+    padding-bottom: 15px;
+}
+
+.my-form label {
+    display: block;
+}
+
+.my-form input[type="text"], .my-form input[type="email"], .my-form textarea {
+    padding: 8px;
+    width: 95%;
+    /*width: 100%;*/
+}
+
+/*.my-form input[type='submit']{*/
+/*    background-color: #333;*/
+/*    color: white;*/
+/*    padding: 10px 15px;*/
+/*    border: none;*/
+/*    border-radius: 10px;*/
+/*}*/
+
+.button {
+    background-color: cadetblue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: red;
+    color: white;
+}
+
+/********************************************/
+/********************************************/
+/********************************************/
+
+.block {
+    width: 33.3%;
+    float: left;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    /*margin: 10px;*/
+    box-sizing: border-box;
+}
+
+.clr {
+    clear: both;
+}
+
+/********************************************/
+/********************************************/
+/********************************************/
+
+
+#main-block {
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float: left;
+    width: 30%;
+    background-color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+/********************************************/
+/********************************************/
+/********************************************/
+
+
+.p-box {
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    position: relative;
+    /*padding: 20px;*/
+    margin: 20px;
+    color: white;
+
+    background-image: url("pics/bg.jpg");
+    /*background-repeat: no-repeat;*/
+    background-repeat: repeat;
+    /*background-position: 100px 200px;*/
+    background-position: center bottom;
+    background-size: 30%;
+}
+
+.p-box h2 {
+    position: absolute;
+    left: 100px;
+    top: 200px;
+}
+
+.p-box h3 {
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+/*.fix-me {*/
+/*    position: fixed;*/
+/*    top: 200px;*/
+/*    !*left: 200px;*!*/
+/*}*/
+
+
+/********************************************/
+/********************************************/
+/********************************************/
+
+/*.my-list li:first-child {*/
+/*    background-color: red;*/
+/*}*/
+
+/*.my-list li:last-child {*/
+/*    background-color: blueviolet;*/
+/*}*/
+
+/*.my-list li:nth-child(4){*/
+/*    background-color: yellowgreen;*/
+/*}*/
+
+.my-list li:nth-child(even){
+    background-color: yellowgreen;
+    color: white;
+}
+
+.my-list li::first-letter {
+    color: red;
+}
+
+/********************************************/
+/********************************************/
+/********************************************/
+
+@media (max-width: 700px) {
+    #main-block, #sidebar, .block  {
+        width: 100%;
+        float: none;
+    }
+
+    .p-box, .fix-me {
+        display: none;
+    }
+
+    main p {
+    padding: 20px;
+    margin: 20px;
+
+    color: cadetblue;
+    border: 3px cadetblue dotted;
+    border-radius: 10px;
+
+        font-size: 10px;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    word-spacing: 1em;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

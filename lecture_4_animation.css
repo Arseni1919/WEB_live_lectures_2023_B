@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #333;
+}
+
+.box {
+    background: white;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
+    top: 20px;
+
+    transition-property: background-color, border-radius, transform;
+    transition-duration: 0.1s;
+
+    /*transition-delay: 0.5s, 1s;*/
+
+    transition-timing-function: linear;
+
+    /*animation-name: my-animation;*/
+    /*animation-duration: 4s;*/
+
+    /*animation-iteration-count: 2;*/
+    /*animation-iteration-count: infinite;*/
+
+    /*animation-delay: 2s;*/
+
+    /*animation-direction: reverse;*/
+    /*animation-direction: alternate;*/
+
+    /*animation-timing-function: linear;*/
+    /*animation-timing-function: ease-in;*/
+    /*animation-timing-function: ease-out;*/
+
+    /*animation-fill-mode: forwards;*/
+
+}
+
+.box:hover {
+    background-color: red;
+    border-radius: 50%;
+}
+
+/*@keyframes my-animation {*/
+/*    0%{*/
+/*        background-color: white;*/
+/*        left: 0;*/
+/*        top: 0;*/
+/*        border-radius: 0 0 0 0;*/
+/*    }*/
+/*    25%{*/
+/*        background-color: red;*/
+/*        left: 50px;*/
+/*        top: 0;*/
+/*        border-radius: 50% 0 0 0;*/
+/*    }*/
+/*    50%{*/
+/*        background-color: green;*/
+/*        left: 50px;*/
+/*        top: 50px;*/
+/*        border-radius: 50% 50% 0 0;*/
+/*    }*/
+/*    75%{*/
+/*        background-color: blue;*/
+/*        left: 0;*/
+/*        top: 50px;*/
+/*        border-radius: 50% 50% 50% 0;*/
+/*    }*/
+/*    100%{*/
+/*        background-color: white;*/
+/*        left: 0;*/
+/*        top: 0;*/
+/*        border-radius: 50% 50% 50% 50%;*/
+/*    }*/
+/*}*/

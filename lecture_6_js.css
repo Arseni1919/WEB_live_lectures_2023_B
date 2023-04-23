@@ -1,0 +1,37 @@
+.bg-dark {
+    color: white;
+    background-color: #333333;
+}
+
+.error {
+    color: white;
+    background-color: red;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 140px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: 1px solid steelblue;
+    border-radius: 10px;
+    color: white;
+    background-color: steelblue;
+
+}
+
+.btn-over {
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+}
+
+.btn-out {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
